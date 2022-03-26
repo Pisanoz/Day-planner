@@ -35,8 +35,6 @@ for (time = 9; time <= 17; time++) {
 	dayPlanner.push(dataPlanner);
 }
 
-//end array built
-
 //current day for header
 function getCurrentDate() {
 	var currentDate = moment().format("dddd, MMMM Do");
